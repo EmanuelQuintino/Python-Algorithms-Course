@@ -1,1 +1,1 @@
-# Course-Python
+# Python: Algorithm and Programming Logic

@@ -11,7 +11,6 @@ def factor(num):
   
   return total
 
-print(factor(5))
 
 def factor_r(num):
   if num == 1:
@@ -19,4 +18,5 @@ def factor_r(num):
   
   return num * factor_r(num - 1)
 
+print(factor(5))
 print(factor_r(5))

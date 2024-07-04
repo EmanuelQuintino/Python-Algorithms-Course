@@ -71,7 +71,7 @@ while True:
     input("\nPressine Enter para seguir...")
 
   # print("\033[H\033[J") # terminal clear
-  # print("\033c", end="") # terminal clear
+  print("\033c", end="") # terminal clear
   waiting_menu = True
   
   print('''

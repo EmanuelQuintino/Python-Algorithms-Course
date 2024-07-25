@@ -3,7 +3,7 @@ animes = ["Dragon Ball", "Naruto", "Jojo", "Death Note"]
             # <= -4          -3        -2         -1
 
 print(animes)
-print(type(animes))
+print(type(animes)) # list
 print(animes[0])
 print(animes[3])
 print(animes[-1])

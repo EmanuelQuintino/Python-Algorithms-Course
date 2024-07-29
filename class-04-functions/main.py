@@ -1,3 +1,10 @@
+def say_hello(name):
+  print("Oi, " + name + ", tudo bem?")
+
+say_hello("Rafael")
+say_hello("Wilson")
+say_hello("Nereu")
+
 def my_sum(num1, num2):
   total = num1 - num2
   return total

@@ -1,29 +1,44 @@
 # strings 
-name = 'Emanuel\' Quintino'
+name = "Emanuel Quintino"
+user = 'Platão'
+phrase = '"O maior erro que você pode cometer na vida é ter medo de cometer erros" - Platão'
 
 text = """
-  row 1 
-  row 2 
-  row 3 
+  [1] - Falar com atendente
+  [2] - Promoções
+  [3] - Reclamações
 """
 
-text = "row 1 \nrow 2 \nrow 3"
+print(name)
+print(user)
+print(phrase)
+print(text)
 
 print(name.upper())
-print(name.lower())
-print(name.capitalize())
-print(name.strip())
-print(name.split("n"))
-print(name.count("n"))
-print(name.replace(" ", "_", 1))
+print(text.upper())
+print(text.lower())
+print("joão".capitalize())
+print(name.split())
+print(name.split(" "))
+print(name.split("a"))
+print(text.count("vida"))
+
+print(name.replace("i", "_"))
+print(name[0])
+print(name[-1])
+print(name[1:5])
+print(name[::-1])
 
 print(len(name))
-print(name[2:])
-print(name[2: -2])
 print(name.index("E"))
-print("Emanuel" in name)
+print(phrase.index("maior"))
+print("Platão" in text)
 
-print(text)
+print(list(name))
+print(type(list(name)))
+name2 = list(name)
+name2.reverse()
+print(name2)
 
 # arrays
 nums1 = [2, 3, 4]

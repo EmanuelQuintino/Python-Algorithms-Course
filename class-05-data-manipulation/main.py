@@ -74,6 +74,9 @@ print(array_names)
 print(new_array_names)
 print(array_names[1:])
 print(array_names[-2:])
+print(nums3[2:])
+print(nums3[2:-1])
+print(nums3[:-2])
 
 print(len(array_names))
 
